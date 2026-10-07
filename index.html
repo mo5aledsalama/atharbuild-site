@@ -313,6 +313,11 @@ header.nav.scrolled{box-shadow:0 6px 24px -14px rgba(0,0,0,.35)}
   .btn::before{display:none}
   .navlinks a::after,.navphone,.langbtn,.wa-fab,.mobilemenu a{transition:none}
 }
+
+/* hero video reel */
+.hero .hero-video{position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; opacity:0; transition:opacity 1.2s ease}
+.hero .hero-video.on{opacity:1}
+.hero.has-video .hero-slide{display:none}
 </style>
 
 <div class="page" dir="rtl" id="page">
@@ -1817,6 +1822,49 @@ header.nav.scrolled{box-shadow:0 6px 24px -14px rgba(0,0,0,.35)}
   });
 })();
 </script>
+<script>
+/* Hero video reel (desktop/tablet only): day-to-night clips crossfade one after another.
+   Phones, Save-Data and reduced-motion users keep the lighter image slideshow. */
+(function(){
+  var hero = document.querySelector('.hero'); if (!hero) return;
+  var conn = navigator.connection || {};
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce || conn.saveData || window.innerWidth < 768) return;
+  var clips = ['videos/hero-1.mp4','videos/hero-2.mp4','videos/hero-3.mp4','videos/hero-4.mp4','videos/hero-5.mp4'];
+  var content = hero.querySelector('.hero-content');
+  function make(){
+    var v = document.createElement('video');
+    v.className = 'hero-video'; v.muted = true; v.defaultMuted = true; v.playsInline = true;
+    v.setAttribute('muted',''); v.setAttribute('playsinline',''); v.preload = 'auto';
+    hero.insertBefore(v, content);
+    return v;
+  }
+  var a = make(), b = make(), cur = a, nxt = b, i = 0, switching = false;
+  function load(v, k){ v.src = clips[k % clips.length]; v.load(); }
+  load(a, 0); load(b, 1);
+  a.addEventListener('playing', function once(){ a.removeEventListener('playing', once); hero.classList.add('has-video'); });
+  a.classList.add('on');
+  a.play().catch(function(){ a.remove(); b.remove(); });
+  function tick(){
+    if (switching || !cur.duration) return;
+    if (cur.currentTime > cur.duration - 1.2){
+      switching = true;
+      nxt.currentTime = 0;
+      nxt.play().then(function(){
+        nxt.classList.add('on'); cur.classList.remove('on');
+        var old = cur; cur = nxt; nxt = old; i++;
+        setTimeout(function(){ old.pause(); load(old, i + 1); switching = false; }, 1300);
+      }).catch(function(){ switching = false; });
+    }
+  }
+  [a, b].forEach(function(v){
+    v.addEventListener('timeupdate', function(){ if (v === cur) tick(); });
+    v.addEventListener('ended', function(){ if (v === cur && !switching){ v.currentTime = 0; v.play(); } });
+  });
+  document.addEventListener('visibilitychange', function(){ if (document.hidden) cur.pause(); else cur.play().catch(function(){}); });
+})();
+</script>
+
 
 
 

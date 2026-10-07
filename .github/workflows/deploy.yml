@@ -27,7 +27,7 @@ jobs:
       - name: Prepare site
         run: |
           mkdir _site
-          cp -r index.html CNAME images _site/
+          cp -r index.html CNAME images videos _site/
           touch _site/.nojekyll
 
       - name: Configure Pages
