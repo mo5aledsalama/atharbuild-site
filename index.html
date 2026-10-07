@@ -262,6 +262,57 @@ header.nav.scrolled{box-shadow:0 6px 24px -14px rgba(0,0,0,.35)}
   .hero .hero-slide{transition:none}
   .pcard,.pgallery img,.pmore img,.btn{transition:none}
 }
+
+/* ---------- hover effects for buttons & links ---------- */
+.btn{position:relative; overflow:hidden; isolation:isolate}
+.btn::before{content:""; position:absolute; top:0; bottom:0; left:-75%; width:50%; z-index:-1; background:linear-gradient(100deg, transparent, rgba(255,255,255,.28), transparent); transform:skewX(-20deg); transition:left .6s ease}
+.btn:hover::before,.btn:focus-visible::before{left:130%}
+.btn:hover,.btn:focus-visible{box-shadow:0 10px 22px -12px rgba(0,0,0,.45)}
+.btn-olive:hover,.btn-olive:focus-visible{background:color-mix(in srgb, var(--olive) 88%, var(--copper))}
+.btn-outline:hover,.btn-outline:focus-visible{background:rgba(244,239,229,.12); border-color:#F4EFE5}
+.btn:active{transform:translateY(0) scale(.98)}
+
+.navlinks a{position:relative; transition:opacity .25s ease, color .25s ease}
+.navlinks a::after{content:""; position:absolute; left:0; right:0; bottom:-2px; height:2px; background:var(--copper); transform:scaleX(0); transition:transform .3s ease}
+.navlinks a:hover::after,.navlinks a:focus-visible::after{transform:scaleX(1)}
+.navlinks a[aria-current="page"]::after{display:none}
+
+.navphone,.langbtn,.copybtn{transition:background .25s ease, color .25s ease, border-color .25s ease, transform .25s ease}
+.navphone:hover,.navphone:focus-visible{background:var(--copper); color:#F4EFE5; transform:translateY(-1px)}
+.langbtn:hover,.langbtn:focus-visible{background:var(--copper); border-color:var(--copper); color:#F4EFE5; transform:translateY(-1px)}
+.copybtn:hover,.copybtn:focus-visible{background:var(--copper); border-color:var(--copper); color:#F4EFE5}
+
+.hamburger,.mobilemenu-close{transition:border-color .25s ease, background .25s ease}
+.hamburger:hover,.mobilemenu-close:hover{border-color:var(--copper); background:color-mix(in srgb, var(--copper) 12%, transparent)}
+.hamburger:hover span::before{transform:translateY(-2px)}
+.hamburger:hover span::after{transform:translateY(2px)}
+
+.mobilemenu a{transition:color .25s ease, padding .25s ease}
+.mobilemenu a:hover,.mobilemenu a:focus-visible{color:var(--copper); padding-inline-start:12px}
+
+.brand{transition:opacity .25s ease}
+.brand:hover{opacity:.82}
+
+.wa-fab{transition:transform .25s ease, box-shadow .25s ease, filter .25s ease}
+.wa-fab::after{content:""; position:absolute; inset:0; border-radius:50%; border:2px solid var(--whatsapp); opacity:0}
+.wa-fab:hover{transform:scale(1.08); box-shadow:0 8px 22px rgba(0,0,0,.3)}
+@media (prefers-reduced-motion: no-preference){
+  .wa-fab:hover::after{animation:waRing 1.2s ease-out infinite}
+  @keyframes waRing{from{transform:scale(1); opacity:.7} to{transform:scale(1.6); opacity:0}}
+}
+
+.contact-item a,.lead a{transition:color .25s ease}
+.contact-item a:hover,.lead a:hover{color:var(--copper)}
+
+.lb button{transition:background .25s ease, transform .25s ease}
+.lb button:hover{transform:scale(1.08)}
+.lb .lb-prev:hover{transform:scale(1.08) translateX(-2px)}
+.lb .lb-next:hover{transform:scale(1.08) translateX(2px)}
+
+@media (prefers-reduced-motion: reduce){
+  .btn::before{display:none}
+  .navlinks a::after,.navphone,.langbtn,.wa-fab,.mobilemenu a{transition:none}
+}
 </style>
 
 <div class="page" dir="rtl" id="page">
