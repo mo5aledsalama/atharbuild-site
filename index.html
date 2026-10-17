@@ -410,7 +410,17 @@ footer{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))}
 
 /* logo: light version is swapped in for dark mode via <picture> */
 .brand picture,footer picture{display:contents}
-</style>
+
+/* on-site: design vs reality */
+.d2r{margin:6px 0 46px}
+.d2r h2{margin:0 0 8px}
+.d2r-sub{color:var(--grey); font-size:15px; max-width:62ch; margin:0 0 20px}
+.pmore.d2r-pair{grid-template-columns:1fr 1fr; gap:16px; margin:0}
+.d2r-pair figure{position:relative; margin:0; overflow:hidden; border-radius:2px}
+.d2r-pair img{aspect-ratio:2/1; object-fit:cover}
+.d2r-pair figcaption{position:absolute; top:12px; inset-inline-start:12px; font-family:var(--font-en); font-size:11px; letter-spacing:.22em; color:#F4EFE5; background:rgba(24,40,36,.72); padding:5px 10px; border-radius:2px; pointer-events:none}
+.d2r-pair figure:last-child figcaption{background:var(--copper); color:#1A120B}
+@media (max-width:680px){.pmore.d2r-pair{grid-template-columns:1fr}}</style>
 
 <div class="page" dir="rtl" id="page">
 
@@ -964,7 +974,15 @@ footer{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))}
         <span class="ar">لمحات حقيقية من مواقع التنفيذ — من الهيكل الخرساني إلى تركيب الواجهات الحجرية، بإشراف مباشر من فريق أثر المدماك حتى التسليم.</span>
         <span class="en" hidden>Real glimpses from our job sites — from the concrete structural shell to stone facade installation, under ATHAR ALMIDMAK's direct supervision through handover.</span>
       </p>
-      <div class="projects-grid">
+      <div class="d2r">
+        <div class="trace"><span class="dot"></span><span class="line"></span><span class="label">DESIGN → ON SITE</span></div>
+        <h2><span class="ar">من التصميم إلى الواقع</span><span class="en" hidden>From design to reality</span></h2>
+        <p class="d2r-sub"><span class="ar">تصميم وتنفيذ فيلا سكنية لصالح شركة إلمام العقارية — الواجهة كما صُممت، والواجهة كما نُفذت في الموقع بإشراف أثر المدماك.</span><span class="en" hidden>Design and build of a residential villa for Elmam Real Estate — the facade as designed, and the facade as built on site under ATHAR ALMIDMAK's supervision.</span></p>
+        <div class="pmore d2r-pair">
+          <figure><img loading="lazy" src="images/onsite/elmam-villa-design.jpg" alt="فيلا سكنية لشركة إلمام العقارية - التصميم"><figcaption>DESIGN</figcaption></figure>
+          <figure><img loading="lazy" src="images/onsite/elmam-villa-site.jpg" alt="فيلا سكنية لشركة إلمام العقارية - التنفيذ في الموقع"><figcaption>ON SITE</figcaption></figure>
+        </div>
+      </div>      <div class="projects-grid">
 
         <div class="pcard reveal">
           <div class="frame"><span class="c2"></span><span class="c3"></span><img loading="lazy" src="images/site/37c732e2d9.jpg" alt="تنفيذ الواجهة الحجرية - موقع العمل"></div>
