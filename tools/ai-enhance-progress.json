@@ -1,0 +1,610 @@
+[
+ {
+  "project": "wadinamar",
+  "images": [
+   {
+    "path": "images/site/11fbb56eba.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": true,
+  "secondAdded": false
+ },
+ {
+  "project": "residentialbldg",
+  "images": [
+   {
+    "path": "images/site/cf3b143119.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": true,
+  "secondAdded": false
+ },
+ {
+  "project": "privatevilla",
+  "images": [
+   {
+    "path": "images/site/9d167258c3.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": true,
+  "secondAdded": false
+ },
+ {
+  "project": "neoclassical",
+  "images": [
+   {
+    "path": "images/site/e99b66bbbe.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": true,
+  "secondAdded": false
+ },
+ {
+  "project": "elmanee",
+  "images": [
+   {
+    "path": "images/site/396b3474dd.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": true,
+  "secondAdded": false
+ },
+ {
+  "project": "bokamy",
+  "images": [
+   {
+    "path": "images/site/e5ee553a9c.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": true,
+  "secondAdded": false
+ },
+ {
+  "project": "hotel",
+  "images": [
+   {
+    "path": "images/site/d8e9629eee.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/site/a212c9ce73.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/site/28cedcbf0b.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "elmam",
+  "images": [
+   {
+    "path": "images/site/560843fc15.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/site/ee4d191621.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "rajhi",
+  "images": [
+   {
+    "path": "images/site/f3be8d1740.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/site/073ac09699.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "salmanicenter",
+  "images": [
+   {
+    "path": "images/site/7c13cc72f6.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/site/68ec60963e.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "twinvillas",
+  "images": [
+   {
+    "path": "images/site/e4652f50ef.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/site/770a97054b.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "gelewy",
+  "images": [
+   {
+    "path": "images/site/3cc7bf2809.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/site/4191ca8bc7.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/site/6262c66791.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/site/97e6d05d37.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "assery",
+  "images": [
+   {
+    "path": "images/site/6dfb10b412.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/site/9ad751effd.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/site/9840992ef8.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/site/a0d4a630a4.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "elsgeh",
+  "images": [
+   {
+    "path": "images/elsgeh/01.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/elsgeh/03.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/elsgeh/06.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/elsgeh/07.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "fakhri",
+  "images": [
+   {
+    "path": "images/fakhri/01.jpg",
+    "status": "done"
+   },
+   {
+    "path": "images/fakhri/02.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/fakhri/03.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/fakhri/04.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/fakhri/06.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/fakhri/10.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/fakhri/11.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/fakhri/12.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/fakhri/13.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "ahmary",
+  "images": [
+   {
+    "path": "images/ahmary/01.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/ahmary/02.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/ahmary/03.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/ahmary/04.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/ahmary/06.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/ahmary/07.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/ahmary/09.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/ahmary/11.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/ahmary/13.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "gelewy-interior",
+  "images": [
+   {
+    "path": "images/gelewy-interior/15.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/gelewy-interior/16.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/gelewy-interior/17.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/gelewy-interior/18.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/gelewy-interior/19.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/gelewy-interior/20.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/gelewy-interior/24.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/gelewy-interior/25.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/gelewy-interior/21.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/gelewy-interior/22.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/gelewy-interior/23.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/gelewy-interior/09.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/gelewy-interior/10.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "talal",
+  "images": [
+   {
+    "path": "images/talal/01.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/talal/02.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/talal/03.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/talal/04.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/talal/05.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/talal/06.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/talal/07.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/talal/08.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/talal/09.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/talal/10.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/talal/11.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/talal/12.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "landscape",
+  "images": [
+   {
+    "path": "images/landscape/01.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/landscape/03.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/landscape/04.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/landscape/05.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/landscape/07.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/landscape/08.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/landscape/09.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/landscape/10.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/landscape/12.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "rehab-villa",
+  "images": [
+   {
+    "path": "images/rehab-villa/01.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/rehab-villa/04.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/rehab-villa/05.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/rehab-villa/08.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/rehab-villa/09.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/rehab-villa/10.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/rehab-villa/12.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "narjis-compound",
+  "images": [
+   {
+    "path": "images/narjis-compound/01.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/narjis-compound/02.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/narjis-compound/03.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/narjis-compound/04.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "neoclassic-650",
+  "images": [
+   {
+    "path": "images/neoclassic-650/01.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/neoclassic-650/05.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/neoclassic-650/04.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/neoclassic-650/08.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/neoclassic-650/09.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/neoclassic-650/12.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/neoclassic-650/13.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "norah-villa",
+  "images": [
+   {
+    "path": "images/norah-villa/01.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/norah-villa/02.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/norah-villa/03.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/norah-villa/04.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/norah-villa/05.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/norah-villa/06.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/norah-villa/07.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "fayz",
+  "images": [
+   {
+    "path": "images/fayz/01.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/fayz/02.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/fayz/03.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/fayz/04.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ }
+]
