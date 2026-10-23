@@ -1,6 +1,6 @@
 ﻿# Generate a standalone, crawlable page for every project view in index.html: /projects/<slug>/index.html
 # Re-run after editing a project in index.html. Also rewrites sitemap.xml.
-$root = "C:\Users\mada5\AppData\Roaming\Claude\scratch-workspaces\15c4f6c9-520e-4301-9db7-999496abc997\b62fda9c-5431-4d94-98eb-8aa6c3b41f3b\scratch-2026-10-05-700e36"
+$root = Split-Path -Parent $PSScriptRoot
 $enc = New-Object Text.UTF8Encoding $false
 $src = [IO.File]::ReadAllText("$root\index.html", $enc)
 $skip = @('office')
