@@ -4,22 +4,22 @@
   "images": [
    {
     "path": "images/site/11fbb56eba.jpg",
-    "status": "todo"
+    "status": "done"
    }
   ],
   "needSecond": true,
-  "secondAdded": false
+  "secondAdded": true
  },
  {
   "project": "residentialbldg",
   "images": [
    {
     "path": "images/site/cf3b143119.jpg",
-    "status": "todo"
+    "status": "done"
    }
   ],
   "needSecond": true,
-  "secondAdded": false
+  "secondAdded": true
  },
  {
   "project": "privatevilla",
