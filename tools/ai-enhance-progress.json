@@ -227,39 +227,39 @@
   "images": [
    {
     "path": "images/ahmary/01.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/ahmary/02.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/ahmary/03.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/ahmary/04.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/ahmary/06.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/ahmary/07.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/ahmary/09.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/ahmary/11.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/ahmary/13.jpg",
-    "status": "todo"
+    "status": "done"
    }
   ],
   "needSecond": false,
