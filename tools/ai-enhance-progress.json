@@ -384,39 +384,39 @@
   "images": [
    {
     "path": "images/landscape/01.jpg",
-    "status": "todo"
+    "status": "rejected"
    },
    {
     "path": "images/landscape/03.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/landscape/04.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/landscape/05.jpg",
-    "status": "todo"
+    "status": "rejected"
    },
    {
     "path": "images/landscape/07.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/landscape/08.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/landscape/09.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/landscape/10.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/landscape/12.jpg",
-    "status": "todo"
+    "status": "rejected"
    }
   ],
   "needSecond": false,
