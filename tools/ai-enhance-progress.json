@@ -578,15 +578,15 @@
   "images": [
    {
     "path": "images/site/d8e9629eee.jpg",
-    "status": "todo"
+    "status": "rejected"
    },
    {
     "path": "images/site/a212c9ce73.jpg",
-    "status": "todo"
+    "status": "rejected"
    },
    {
     "path": "images/site/28cedcbf0b.jpg",
-    "status": "todo"
+    "status": "rejected"
    }
   ],
   "needSecond": false,
@@ -597,11 +597,11 @@
   "images": [
    {
     "path": "images/site/560843fc15.jpg",
-    "status": "todo"
+    "status": "rejected"
    },
    {
     "path": "images/site/ee4d191621.jpg",
-    "status": "todo"
+    "status": "rejected"
    }
   ],
   "needSecond": false,
