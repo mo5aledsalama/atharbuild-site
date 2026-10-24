@@ -493,23 +493,23 @@
    },
    {
     "path": "images/neoclassic-650/04.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/neoclassic-650/08.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/neoclassic-650/09.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/neoclassic-650/12.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/neoclassic-650/13.jpg",
-    "status": "todo"
+    "status": "rejected"
    }
   ],
   "needSecond": false,
