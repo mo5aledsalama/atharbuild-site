@@ -48,22 +48,22 @@
   "images": [
    {
     "path": "images/site/396b3474dd.jpg",
-    "status": "todo"
+    "status": "done"
    }
   ],
   "needSecond": true,
-  "secondAdded": false
+  "secondAdded": true
  },
  {
   "project": "bokamy",
   "images": [
    {
     "path": "images/site/e5ee553a9c.jpg",
-    "status": "todo"
+    "status": "done"
    }
   ],
   "needSecond": true,
-  "secondAdded": false
+  "secondAdded": true
  },
  {
   "project": "hotel",
