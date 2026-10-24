@@ -66,49 +66,15 @@
   "secondAdded": true
  },
  {
-  "project": "hotel",
-  "images": [
-   {
-    "path": "images/site/d8e9629eee.jpg",
-    "status": "todo"
-   },
-   {
-    "path": "images/site/a212c9ce73.jpg",
-    "status": "todo"
-   },
-   {
-    "path": "images/site/28cedcbf0b.jpg",
-    "status": "todo"
-   }
-  ],
-  "needSecond": false,
-  "secondAdded": false
- },
- {
-  "project": "elmam",
-  "images": [
-   {
-    "path": "images/site/560843fc15.jpg",
-    "status": "todo"
-   },
-   {
-    "path": "images/site/ee4d191621.jpg",
-    "status": "todo"
-   }
-  ],
-  "needSecond": false,
-  "secondAdded": false
- },
- {
   "project": "rajhi",
   "images": [
    {
     "path": "images/site/f3be8d1740.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/site/073ac09699.jpg",
-    "status": "todo"
+    "status": "done"
    }
   ],
   "needSecond": false,
@@ -119,11 +85,11 @@
   "images": [
    {
     "path": "images/site/7c13cc72f6.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/site/68ec60963e.jpg",
-    "status": "todo"
+    "status": "done"
    }
   ],
   "needSecond": false,
@@ -589,18 +555,52 @@
   "images": [
    {
     "path": "images/fayz/01.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/fayz/02.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/fayz/03.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/fayz/04.jpg",
+    "status": "done"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "hotel",
+  "images": [
+   {
+    "path": "images/site/d8e9629eee.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/site/a212c9ce73.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/site/28cedcbf0b.jpg",
+    "status": "todo"
+   }
+  ],
+  "needSecond": false,
+  "secondAdded": false
+ },
+ {
+  "project": "elmam",
+  "images": [
+   {
+    "path": "images/site/560843fc15.jpg",
+    "status": "todo"
+   },
+   {
+    "path": "images/site/ee4d191621.jpg",
     "status": "todo"
    }
   ],
