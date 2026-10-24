@@ -329,51 +329,51 @@
   "images": [
    {
     "path": "images/talal/01.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/talal/02.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/talal/03.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/talal/04.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/talal/05.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/talal/06.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/talal/07.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/talal/08.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/talal/09.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/talal/10.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/talal/11.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/talal/12.jpg",
-    "status": "todo"
+    "status": "done"
    }
   ],
   "needSecond": false,
