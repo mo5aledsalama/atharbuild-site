@@ -462,19 +462,19 @@
   "images": [
    {
     "path": "images/narjis-compound/01.jpg",
-    "status": "todo"
+    "status": "rejected"
    },
    {
     "path": "images/narjis-compound/02.jpg",
-    "status": "todo"
+    "status": "rejected"
    },
    {
     "path": "images/narjis-compound/03.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/narjis-compound/04.jpg",
-    "status": "todo"
+    "status": "done"
    }
   ],
   "needSecond": false,
