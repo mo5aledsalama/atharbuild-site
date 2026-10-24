@@ -427,31 +427,31 @@
   "images": [
    {
     "path": "images/rehab-villa/01.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/rehab-villa/04.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/rehab-villa/05.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/rehab-villa/08.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/rehab-villa/09.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/rehab-villa/10.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/rehab-villa/12.jpg",
-    "status": "todo"
+    "status": "done"
    }
   ],
   "needSecond": false,
