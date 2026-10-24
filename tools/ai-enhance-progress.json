@@ -161,19 +161,19 @@
   "images": [
    {
     "path": "images/elsgeh/01.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/elsgeh/03.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/elsgeh/06.jpg",
-    "status": "todo"
+    "status": "done"
    },
    {
     "path": "images/elsgeh/07.jpg",
-    "status": "todo"
+    "status": "done"
    }
   ],
   "needSecond": false,
