@@ -26,22 +26,22 @@
   "images": [
    {
     "path": "images/site/9d167258c3.jpg",
-    "status": "todo"
+    "status": "done"
    }
   ],
   "needSecond": true,
-  "secondAdded": false
+  "secondAdded": true
  },
  {
   "project": "neoclassical",
   "images": [
    {
     "path": "images/site/e99b66bbbe.jpg",
-    "status": "todo"
+    "status": "done"
    }
   ],
   "needSecond": true,
-  "secondAdded": false
+  "secondAdded": true
  },
  {
   "project": "elmanee",
